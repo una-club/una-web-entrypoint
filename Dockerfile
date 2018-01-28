@@ -9,7 +9,7 @@ RUN adduser www-data sudo
 
 RUN apt-get install -y python-certbot-nginx -t stretch-backports
 
-RUN apt-get install git
+RUN apt-get install -y git
 
 RUN mkdir -p /var/www/regataiades
 
