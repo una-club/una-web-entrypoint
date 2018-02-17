@@ -1,7 +1,6 @@
 server {
   listen 80;
   server_name www.crm.una-club.fr crm.una-club.fr;
-  listen [::]:80 default_server ipv6only=on;
 
   location / {
     proxy_set_header Host $host;
