@@ -1,6 +1,6 @@
 server {
   listen 80;
-  server_name www.service.regataitades.fr service.regataitades.fr;
+  server_name www.service.regataiades.fr service.regataiades.fr;
 
   location / {
     proxy_set_header Host $host;
