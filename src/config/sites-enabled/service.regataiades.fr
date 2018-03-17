@@ -6,8 +6,8 @@ server {
     proxy_set_header Host $host;
     proxy_set_header X-Real-IP $remote_addr;
     proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-    proxy_pass http://regataiades-service:8990/;
-    proxy_redirect http://regataiades-service:8990/ http://$host/;
+    proxy_pass http://regataiades-backend:8990/;
+    proxy_redirect http://regataiades-backend:8990/ http://$host/;
   }
 
 
