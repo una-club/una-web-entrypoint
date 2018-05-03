@@ -25,4 +25,6 @@ RUN chmod a+x /root/run.sh
 
 RUN git clone https://github.com/una-club/regataiades-website-2018-edition-static.git /var/www/regataiades
 
+RUN git clone https://github.com/mishgunn/regataiades-registration-gui.git /var/www/regataiades/live
+
 CMD ["/root/run.sh"]
