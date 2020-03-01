@@ -5,10 +5,3 @@ services:
     build: .
     volumes:
       - /home/mishgunn/una/data/nginx:/var/log/nginx
-    networks:
-      - plg
-
-networks:
-  plg:
-    name: ${PLAYGROUND_NETWORK}
-    external: true
