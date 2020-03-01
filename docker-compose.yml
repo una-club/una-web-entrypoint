@@ -1,7 +1,9 @@
 version: "3.6"
 services:
   nginx:
-    container_name: research
+    container_name: regataiades
+    ports:
+      - "80:80"
     build: .
     volumes:
       - /home/mishgunn/una/data/nginx:/var/log/nginx
